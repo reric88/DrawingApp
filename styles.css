@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Nunito&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Nunito", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+canvas {
+  height: 50rem;
+  width: 50rem;
+  border: 2px solid #e40c;
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+.toolbox {
+  background-color: #e40c;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  width: 800px;
+  padding: 1rem;
+}
+
+.toolbox > * {
+  background-color: #e40c;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  height: 50px;
+  width: 50px;
+  margin: 0.25rem 0.4rem;
+  padding: 0.25rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.toolbox > *:nth-child(6) {
+  margin-left: auto;
+}
